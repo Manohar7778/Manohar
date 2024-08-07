@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    background-color:teal;
+}
+#id{
+    position: sticky;
+    z-index: 1000;
+}
+main div img{
+    max-width: 80px;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 30% 60%;
+}
+#profile{
+    height: max-content;
+}
+iframe{
+    height:530px;
+    width:90%;
+}
+a:link {
+    text-decoration: none;
+    color: bisque;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: aquamarine;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: violet;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: brown;
+  }
